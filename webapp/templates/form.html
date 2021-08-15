@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Insertar Registro</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+	 crossorigin="anonymous">
+</head>
+
+<body class="text-center">
+	<main class="form-signin">
+
+		<form method="POST" style="margin:30px auto; width:70%;" >
+			<h1 class="h3 mb-3 fw-normal">Por favor inserta un nuevo registro</h1>
+
+			<div class="form-floating">
+				<input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre">
+      <label for="floatingInput">Nombre</label>
+    </div>
+    <br>
+       <div class="form-floating">
+      <input type="email" class="form-control" name="email" id="email" placeholder="email">
+      <label for="floatingPassword">Correo Electronico</label>
+    </div>
+    <br>
+       <button class="w-50 btn btn-lg btn-success" type="post">Agregar nuevo</button>
+       <br>
+       <a href="/index" class="w-50 btn btn-lg btn btn-danger" style="margin-top:20px;">Regresar</a>
+  </main>
+</body>
+</html>
